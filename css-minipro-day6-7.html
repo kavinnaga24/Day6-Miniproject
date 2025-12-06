@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 6 Task 7:</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f5f5f5;
+    }
+
+    .about-header {
+        background: linear-gradient(to right, #5b2c83, #8e44ad);
+        color: white;
+        text-align: center;
+        padding: 30px;
+        font-size: 28px;
+        font-weight: bold;
+        border-bottom: 4px solid #d7d7d7;
+    }
+
+    .about-container {
+        display: flex;
+        gap: 30px;                    
+        padding: 40px 50px;            
+        background: white;
+        border-top: 2px solid #ddd;    
+        border-bottom: 2px solid #ddd;  
+    }
+
+    .about-text {
+        flex: 1;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .about-image {
+        flex: 1;
+    }
+
+    .about-image img {
+        width: 100%;
+        border-radius: 10px;
+        border: 2px solid #ccc;     
+    }
+
+    @media(max-width: 768px) {
+        .about-container {
+            flex-direction: column;
+        }
+    }
+</style>
+
+</head>
+<body>
+<div class="about-header">
+    About Our Company
+</div>
+<section class="about-container">
+    <div class="about-text">
+        <h2>Who We Are</h2>
+        <p>
+            We are a passionate team dedicated to delivering high-quality services that help businesses
+            grow and thrive. Our focus is on innovation, creativity, and customer satisfaction.
+        </p>
+
+        <h2>Our Mission</h2>
+        <p>
+            Our mission is to empower individuals and companies through reliable solutions and
+            exceptional support. We believe in continuous learning, improvement, and building
+            long-lasting partnerships.
+        </p>
+    </div>
+    <div class="about-image">
+        <img src="https://via.placeholder.com/450x350" alt="About Us Image">
+    </div>
+
+</section>
+
+</body>
+</html>

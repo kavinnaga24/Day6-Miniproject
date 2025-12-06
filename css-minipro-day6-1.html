@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 6-Task 1: </title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f2f2f2;
+        margin: 0;
+        padding: 30px;
+        text-align: center;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 280px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-8px);
+    }
+
+    .card img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .card p {
+        font-size: 15px;
+        color: #555;
+    }
+</style>
+
+</head>
+<body>
+
+<h2>Simple Card Layout</h2>
+
+<div class="card-container">
+
+    <div class="card">
+        <img src="apple.jpg" alt="Image 1">
+        <h3>Card One</h3>
+        <p>This is a simple card with an image, title, and description.</p>
+    </div>
+
+    <div class="card">
+        <img src="corp.jpg" alt="Image 2">
+        <h3>Card Two</h3>
+        <p>This layout is easy to create using HTML and CSS.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
